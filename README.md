@@ -14,6 +14,7 @@ In addition to the regular UISlider features it can:
 * (New) Disable lower handle so it behaves like a regular UISlider but still use other features.
 * (New) Set a negative min range so the thumbs can cross over. (with custom track image)
 * (New) Automatic iOS 7 theme with tint color support
+* (New) Vertical range slider
 
 See the demo application for some examples on how the to configure the slider.
 
