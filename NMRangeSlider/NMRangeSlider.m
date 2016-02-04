@@ -711,8 +711,8 @@ NSUInteger DeviceSystemMajorVersion() {
     
     [self sendActionsForControlEvents:UIControlEventValueChanged];
     
-    if ([_delegate respondsToSelector:@selector(endTrackingWithTouch:withEvent:)]) {
-        [_delegate endTrackingWithTouch:touch withEvent:event];
+    if ([_delegate respondsToSelector:@selector(sliderView:endTrackingWithTouch:withEvent:)]) {
+      [_delegate sliderView:self endTrackingWithTouch:touch withEvent:event];
     }
 }
 
